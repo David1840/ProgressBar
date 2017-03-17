@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalProgress">
+        //未完成进度条颜色
+        <attr name="progress_unreach_color" format="color" />
+        //未完成进度条高度
+        <attr name="progress_unreach_height" format="dimension" />
+        //已完成进度条颜色
+        <attr name="progress_reach_color" format="color" />
+        //已完成进度条高度
+        <attr name="progress_reach_height" format="dimension" />
+        //字体颜色
+        <attr name="progress_text_color" format="color" />
+        //字体大小
+        <attr name="progress_text_size" format="dimension" />
+        //文字与进度条的间距
+        <attr name="progress_text_offset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgress">
+        //圆的半径
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
